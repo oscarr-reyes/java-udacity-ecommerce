@@ -24,13 +24,13 @@ public class UserControllerTest {
 	private UserController userController;
 
 	@Mock
-	UserRepository userRepository;
+	private UserRepository userRepository;
 
 	@Mock
-	CartRepository cartRepository;
+	private CartRepository cartRepository;
 
 	@Mock
-	BCryptPasswordEncoder bCryptPasswordEncoder;
+	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	@Before
 	public void setup() throws NoSuchFieldException {
