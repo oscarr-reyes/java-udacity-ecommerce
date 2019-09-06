@@ -13,7 +13,7 @@ $ mvn clean package
 
 # Run the application
 # Make sure the database is running before running the application
-$ java -jar target/reviews-0.0.1-SNAPSHOT.jar
+$ java -jar target/auth-course-0.0.1-SNAPSHOT.jar
 ```
 
 # Test
