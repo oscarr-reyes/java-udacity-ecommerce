@@ -74,6 +74,8 @@ public class UserController {
 
 		userRepository.save(user);
 
+		user.setPassword(null);
+
 		log.info("Create user method success");
 
 		return ResponseEntity.ok(user);
