@@ -1,9 +1,0 @@
-2019-09-05 14:13:09 INFO  UserController:56 - Create user method invoked
-2019-09-05 14:13:09 INFO  UserController:77 - Create user method success
-2019-09-05 14:13:09 INFO  UserController:32 - Find by id method invoked: 1
-2019-09-05 14:13:09 INFO  UserController:39 - Find by user name method invoked: foobar
-2019-09-05 14:13:09 INFO  UserController:49 - Find by user name method success
-2019-09-05 14:13:09 INFO  UserController:39 - Find by user name method invoked: foo
-2019-09-05 14:13:09 ERROR UserController:44 - Unable to find user by name: foo
-2019-09-05 14:13:09 INFO  UserController:56 - Create user method invoked
-2019-09-05 14:13:09 ERROR UserController:59 - User create request invalid, password incorrect
